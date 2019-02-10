@@ -1,0 +1,10 @@
+/********************
+ * Main text block
+ ********************/
+
+.main-text {
+  font-size: 18px;
+  font-weight: var(--regular);
+  padding: 10px 10px;
+  box-sizing: border-box;
+}

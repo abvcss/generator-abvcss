@@ -1,0 +1,42 @@
+{
+  "name": "generator-abvcss",
+  "version": "1.0.0",
+  "description": "abvCSS is a CSS-methodology and framework for creating modern, dynamic and supported web interfaces",
+  "author": "Anton Babakhin",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "abvcss",
+    "css methodology",
+    "css framework",
+    "css",
+    "bem",
+    "sass",
+    "less",
+    "postcss",
+    "webpack",
+    "normalize.css",
+    "bootstrap",
+    "foundation",
+    "bulma"
+  ],
+  "homepage": "https://abvcss.github.io/abvcss-website/",
+  "bugs": "https://github.com/abvcss/generator-abvcss/issues",
+  "repository": "abvcss/abvcss",
+  "scripts": {
+    "test": "mocha --timeout 20000 --slow 0"
+  },
+  "engines": {
+    "node": ">=9.0.0"
+  },
+  "dependencies": {
+    "deep-extend": "*",
+    "mocha": "5.2.0",
+    "yeoman-assert": "3.1.1",
+    "yeoman-generator": "*",
+    "yeoman-test": "1.8.0"
+  },
+  "license": "MIT"
+}

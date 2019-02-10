@@ -1,0 +1,41 @@
+/*!
+ * abvCSS starter
+ * Version 1.0
+ * 
+ * Author: Anton Babakhin
+ * Date: 10 January 2019
+ *
+ * Licensed under MIT Open Source
+ */
+
+/* General settings */
+@import "settings.css";
+
+
+/* Base styles */
+<% if (normalize) { %>@import "normalize.css";<% } %>
+@import "1-base/base.css";
+
+
+/* Vendor */
+<% if (cssLibrary === 'Bootstrap') { %>@import "bootstrap/dist/css/bootstrap.min.css";<% } %>
+<% if (cssLibrary === 'Foundation') { %>@import "foundation-sites/dist/css/foundation.min.css";<% } %>
+<% if (cssLibrary === 'Bulma') { %>@import "bulma/css/bulma.min.css";<% } %>
+
+
+/* Layout */
+@import "2-layout/content.css";
+@import "2-layout/menu.css";
+@import "2-layout/footer.css";
+@import "2-layout/header.css";
+@import "2-layout/sidebar.css";
+@import "2-layout/grid-layout.css";
+
+
+/* Blocks */
+@import "3-blocks/header.css";
+@import "3-blocks/main-text.css";
+
+
+/* Skins */
+@import "4-skins/skins.css";

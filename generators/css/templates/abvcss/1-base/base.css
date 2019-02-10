@@ -1,0 +1,17 @@
+/********************
+ * Basic styles
+ ********************/
+  
+body {
+  font-family: var(--font);
+  background-color: var(--white);
+  color: var(--black);
+}
+
+a {
+  color: var(--blue);
+}
+
+a:hover {
+  color: var(--red);
+}
