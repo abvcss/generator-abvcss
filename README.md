@@ -1,8 +1,8 @@
-<p align="center"><a href="https://abvcss.github.io/abvcss-website/" target="_blank" rel="nofollow noopener noreferrer"><img src="https://abvcss.github.io/abvcss-website/assets/abvCSS-logo-black.png" alt="abvCSS"></a></p>
+<p align="center"><a href="https://abvcss.github.io/abvcss-website/" target="_blank" rel="nofollow noopener noreferrer"><img src="https://abvcss.github.io/abvcss-website/dist/img/abvCSS-logo-black.png" alt="abvCSS"></a></p>
 
 # abvCSS
 
-abvCSS is a **CSS-methodology** and **framework** for creating modern, dynamic and supported web interfaces. Development process is speeding up due to the architecture and rules. This methodology makes it easy to re-use styles.
+abvCSS is a **CSS-methodology** and **framework** for creating modern, dynamic and supported web interfaces. Thanks to the architecture and rules the development process is accelerated. This methodology makes it easy to re-use styles.
 
 Framework abvCSS out of the box supports CSS preprocessors like Sass and Less, postprocessor PostCSS, normalize.css and UI libraries Bootstrap, Foundation and Bulma.
 
@@ -43,7 +43,7 @@ a:hover {
 
 **Layout** - layout styles. This type of styles should be applied to the structural blocks that are used on the page once. It is header, footer, menu, sidebar etc.
 
-![layout](https://abvcss.github.io/abvcss-website/assets/layout.png)
+![layout](https://abvcss.github.io/abvcss-website/dist/img/layout.png)
 
 In this way, you should use **id selectors**. Typical example of layout styles:
 
@@ -133,7 +133,7 @@ Unlike BEM, it is fine for abvCSS to separate appearance styles in other class.
 
 **Skins** - skinning styles. Skins are styles that describe appearance of the elements. This styles include text color, background color, shadow, rounded corners, decoration style etc.
 
-![skins](https://abvcss.github.io/abvcss-website/assets/skins.png)
+![skins](https://abvcss.github.io/abvcss-website/dist/img/skins.png)
 
 For example, you can notice common decoration of blocks on the picture above: black text color, grey background, grey borders and shadow. It is effective to add that styles to Skin class.
 
